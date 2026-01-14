@@ -1,0 +1,14 @@
+0000000000000000000000000000000000000000 d7f65a5be225b3eae27f5f49c4953cfc50ae5179 unknown <yangzhipeng1108@163.com> 1768271509 +0800	commit (initial): Initial commit: Migrate from Node.js to Django backend with wxcloudrun template
+d7f65a5be225b3eae27f5f49c4953cfc50ae5179 d7f65a5be225b3eae27f5f49c4953cfc50ae5179 unknown <yangzhipeng1108@163.com> 1768271537 +0800	Branch: renamed refs/heads/master to refs/heads/main
+d7f65a5be225b3eae27f5f49c4953cfc50ae5179 b23a717cf13dcf5f5672da982a7881bc418f1788 unknown <yangzhipeng1108@163.com> 1768273664 +0800	commit: 将Django后端文件移动到根目录以支持微信云托管部署
+b23a717cf13dcf5f5672da982a7881bc418f1788 3608b40201fbd0a03e1529f1dd629cfacdbae1fd unknown <yangzhipeng1108@163.com> 1768274202 +0800	commit: 修复部署问题：添加缺失依赖和优化数据库配置
+3608b40201fbd0a03e1529f1dd629cfacdbae1fd 15cf872618c0ed8b4b14436caa5ec72110d96205 unknown <yangzhipeng1108@163.com> 1768283456 +0800	commit: 修复Dockerfile：添加编译工具以支持bcrypt安装
+15cf872618c0ed8b4b14436caa5ec72110d96205 3a605009d5b575a8803699a479bda1c3a2854e78 unknown <yangzhipeng1108@163.com> 1768284188 +0800	commit: 修复Dockerfile：添加python3-dev以支持cffi编译
+3a605009d5b575a8803699a479bda1c3a2854e78 0daecadce7f11b84274264c205163d33d8727f71 unknown <yangzhipeng1108@163.com> 1768286382 +0800	commit: 修复Django模型冲突和数据库连接问题
+0daecadce7f11b84274264c205163d33d8727f71 b6724dab6355681ac8c4346bfcf5f877bd59ad1b unknown <yangzhipeng1108@163.com> 1768286627 +0800	commit: 添加项目优化总结文档
+b6724dab6355681ac8c4346bfcf5f877bd59ad1b d1aeac610a59e80dc58cb5f9291a6d4fc513b267 unknown <yangzhipeng1108@163.com> 1768286718 +0800	rebase (finish): refs/heads/main onto acb23e42016e772d63624b195851050d2ed9c654
+d1aeac610a59e80dc58cb5f9291a6d4fc513b267 acb23e42016e772d63624b195851050d2ed9c654 unknown <yangzhipeng1108@163.com> 1768287476 +0800	reset: moving to origin/main
+acb23e42016e772d63624b195851050d2ed9c654 0b4dcb3a276c0cd2ce4597230a167d77db396f9f unknown <yangzhipeng1108@163.com> 1768287558 +0800	commit: 修复Django模型冲突和数据库连接问题
+0b4dcb3a276c0cd2ce4597230a167d77db396f9f c272b779c8a4446570a871981ac44231e8cce2e3 unknown <yangzhipeng1108@163.com> 1768289258 +0800	commit: 添加 GitHub 推送脚本和日志文件
+c272b779c8a4446570a871981ac44231e8cce2e3 cbeb8205ff848bb1c9b7a1818efcc9487c437cbe unknown <yangzhipeng1108@163.com> 1768290124 +0800	commit: 修复数据库配置以支持微信云托管环境变量
+cbeb8205ff848bb1c9b7a1818efcc9487c437cbe ba5511e957c0477e144d49bb2661ea1f15c037f5 unknown <yangzhipeng1108@163.com> 1768355797 +0800	commit: refactor: 从Node.js迁移到Django后端
