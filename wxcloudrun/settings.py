@@ -72,10 +72,10 @@ WSGI_APPLICATION = 'wxcloudrun.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.environ.get("MYSQL_DATABASE") or os.environ.get("MYSQL_DATABASE_NAME", 'employee_management'),
+        'NAME': os.environ.get("MYSQL_DATABASE") or os.environ.get("MYSQL_DATABASE_NAME") or 'employee_management',
         'USER': os.environ.get("MYSQL_USERNAME") or os.environ.get("MYSQL_USER", 'root'),
-        'PASSWORD': os.environ.get("MYSQL_PASSWORD"),
-        'HOST': os.environ.get("MYSQL_HOST"),
+        'PASSWORD': os.environ.get("MYSQL_PASSWORD") or '',
+        'HOST': os.environ.get("MYSQL_HOST") or 'localhost',
         'PORT': os.environ.get("MYSQL_PORT", '3306'),
         'OPTIONS': {'charset': 'utf8mb4'},
     }
