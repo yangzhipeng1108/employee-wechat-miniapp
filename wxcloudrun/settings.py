@@ -74,9 +74,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': os.environ.get("MYSQL_DATABASE") or os.environ.get("MYSQL_DATABASE_NAME") or 'employee_management',
         'USER': os.environ.get("MYSQL_USERNAME") or os.environ.get("MYSQL_USER", 'root'),
-        'PASSWORD': os.environ.get("MYSQL_PASSWORD") or '',
-        'HOST': os.environ.get("MYSQL_HOST") or 'localhost',
-        'PORT': os.environ.get("MYSQL_PORT", '3306'),
+        'PASSWORD': os.environ.get("MYSQL_PASSWORD") or 'admin@123',
+        'HOST': os.environ.get("MYSQL_HOST") or 'sh-cynosdbmysql-grp-1k3d17lm.sql.tencentcdb.com',
+        'PORT': os.environ.get("MYSQL_PORT", '29844'),
         'OPTIONS': {'charset': 'utf8mb4'},
     }
 }
